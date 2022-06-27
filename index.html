@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Expression-Recognizer</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("bg1.jpg");
+    }
+    h1{
+      font-family:sans-serif;
+      color: rgb(211, 191, 191);
+    }
+    #video{
+      width: 80vw;
+      
+    }
+    canvas {
+      position: absolute;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exprssion Recognizer
+  </h1>
+  <video id="video" width="720" height="720" autoplay muted></video>
+</body>
+
+</html>
